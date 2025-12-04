@@ -1,0 +1,49 @@
+{
+  "name": "mojilab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "TURBOPACK=0 next dev -p 3000",
+    "dev:clean": "rm -rf .next && TURBOPACK=0 next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/supabase-js": "^2.76.1",
+    "@types/node": "^24.9.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "dotenv": "^17.2.3",
+    "fabric": "^6.7.1",
+    "framer-motion": "^12.23.24",
+    "gif-encoder-2": "^1.0.5",
+    "gifenc": "^1.0.3",
+    "gifencoder": "^2.0.1",
+    "imagetracerjs": "^1.2.6",
+    "jszip": "^3.10.1",
+    "lucide-react": "^0.546.0",
+    "next": "15.1.4",
+    "omggif": "^1.0.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "replicate": "^1.4.0",
+    "sharp": "^0.34.5",
+    "typescript": "^5.9.3",
+    "typewriter-effect": "^2.22.0",
+    "zod": "^4.1.12",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^3.4.18"
+  }
+}
